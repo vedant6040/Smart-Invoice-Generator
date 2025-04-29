@@ -79,8 +79,8 @@ class InvoiceGenerator:
         self.invoice_text.insert(tk.END, "="*30 + "\n")
 
     def email_invoice(self):
-        sender_email = "choudharivedant8@gmail.com"  # Replace with your email
-        password = simpledialog.askstring("Input", "Enter your email password:", show='*')
+        sender_email = "xyzxyz@gmail.com"  # Replace with your email
+        password = simpledialog.askstring("Input", "Enter your email password:", show='*') #the app specific password
         receiver_email = simpledialog.askstring("Input", "Enter recipient's email:")
 
         if not receiver_email:
