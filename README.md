@@ -1,7 +1,5 @@
 🧾 Smart Invoice Generator – Automate Billing with Email & Download Features
 
-
-
 👤 Author
 
 Vedant Choudhari
@@ -45,7 +43,7 @@ GUI
 
 tkinter
 
-Email
+Email generation
 
 smtplib, email.mime
 
@@ -69,39 +67,17 @@ Frontend: tkinter-based GUI
 
 Backend: Python business logic for item management, calculations, and integration with email and filesystem
 
-🖼️ Sample Output Screenshots
+🖼️ Sample Output Screenshots : email to the owener for outputs
 
 Main Application Interface
-
-
-
 Item Addition Dialog
-
-
-
 Quantity and Price Inputs
-
-
-
 Invoice Display
-
-
-
 Email Confirmation
-
-
-
 All interactions are visual and beginner-friendly, designed for maximum usability.
 
 🚀 How to Run
-
-Clone the repo:
-
-git clone https://github.com/yourusername/invoice-generator.git
-cd invoice-generator
-
 Run the app:
-
 python invoice_generator.py
 
 What you’ll need:
